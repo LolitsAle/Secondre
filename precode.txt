@@ -1,0 +1,40 @@
+    // db.collection('users').insertOne({
+    //     name: 'Tung',
+    //     age: 26
+    // }, (error, result) => {
+    //     if(error){
+    //         return console.log(error)
+    //     }
+
+    //     console.log(result.ops)
+    // })
+
+    // db.collection('users').insertMany([{
+    //     name: 'Duy',
+    //     age: 69
+    // },{
+    //     name: 'Linh',
+    //     age: 16
+    // }],(error, result)=>{
+    //     if(error) {
+    //         return console.log(error)
+    //     }
+
+    //     console.log(result.ops)
+    // })
+
+    // db.collection('tasks').insertMany([
+    //     {
+    //        description: 'first task',
+    //         completed: true
+    //     },{
+    //         description: 'second task',
+    //         completed: false
+    //     }
+    // ],(error, result) => {
+    //     if(error){
+    //         return console.log(error)
+    //     }
+
+    //     console.log(result.ops)
+    // })
